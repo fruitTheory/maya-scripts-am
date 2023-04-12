@@ -1,0 +1,22 @@
+Installing asset manager:
+
+Install pymel -> cmd prompt change directory to C:\Program Files\Autodesk\Maya<VersionNumber>\bin
+		     run mayapy -m pip install "pymel>=1.2.,<1.3."
+
+Put asset_manager.py and asset_manager_ui.py in C:\Users\UserName\Documents\maya\scripts
+
+Inside maya import and execute run_asset_manager.py
+
+
+IMPORTANT NOTE for Maya 2024:
+If using Maya 2024 in order for pymel to work must go into pymel cache 
+C:\Users\UserName\AppData\Roaming\Python\Python310\site-packages\pymel\cache
+
+And copy to rename these files to 2024:
+
+mayaApi2022 (or 2023)
+mayaCmdsDocs2022
+mayaCmdsExamples2022
+mayaCmdsList2022
+
+credit to @paulgaitanos for the solution
